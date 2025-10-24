@@ -8,6 +8,12 @@ public class Dealership {
     private String phone;
     private ArrayList<Vehicle> inventory;
 
+    public Dealership(String name, String address, String phone) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+    }
+
     public String getName() {
         return name;
     }
@@ -31,48 +37,6 @@ public class Dealership {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-
-    public ArrayList<Vehicle> getInventory() {
-        return inventory;
-    }
-
-    public void setInventory(ArrayList<Vehicle> inventory) {
-        this.inventory = inventory;
-    }
-
-    //    public Dealership(ArrayList<Vehicle> inventory) {
-//        this.inventory = inventory;
-//
-//
-//    }
-//
-//    public Dealership(String name, String address, String phone) {
-//        this.name = name;
-//        this.address = address;
-//        this.phone = phone;
-//    }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//
-//    public String getAddress() {
-//        return address;
-//    }
-//
-//    public String getPhone() {
-//        return phone;
-//    }
-//
-//    public ArrayList<Vehicle> getInventory() {
-//        return inventory;
-//    }
-//
-//       void getVehiclesByPrice() {
-//
-//
-//    }
 
 
 }
