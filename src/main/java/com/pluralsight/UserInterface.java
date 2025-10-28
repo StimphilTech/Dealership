@@ -6,8 +6,8 @@ public class UserInterface {
 
     public UserInterface() {
     }
-    private int
-    public void processGetByPriceRequest() {
+
+    public void  processGetByPriceRequest() {
     }
     public void processGetByMakeModelRequest() {
 

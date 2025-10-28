@@ -12,14 +12,12 @@ public class DealershipFileManager {
     private String getDealership() {
         return this.dealership;
 
-        Scanner scanner = new Scanner(System.in);
-
-        while (int i = 0; i < 0;)
-        System.out.println("Price must be above $0.00");
-
-        Scanner.close();
-
-
+//         (Scanner scanner = new Scanner(System.in)) {
+//
+//            while () System.out.println("Price must be above $0.00");
+//
+//            scanner.close();
+//        }
 
 
     }

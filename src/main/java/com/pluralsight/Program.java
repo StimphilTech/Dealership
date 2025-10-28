@@ -5,13 +5,25 @@ import java.io.File;
 import java.io.FileReader;
 import java.time.LocalDate;
 import java.time.LocalTime;
+import java.util.Scanner;
 
 public class Program {
 //    private static final String FILE_NAME = "dealership.csv";
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
+
+
+//        while (int i = 0; )
+//        System.out.println("Price must be above $0.00");
+//
+//        scanner.close();
+
     }
+
+
 
 //    public static void Dealership () {
 //        File file = new File (FILE_NAME);
