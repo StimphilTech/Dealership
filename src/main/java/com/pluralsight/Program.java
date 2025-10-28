@@ -16,10 +16,10 @@ public class Program {
 
 
 
-//        while (int i = 0; )
+//        while (int i = 0; ) 99
 //        System.out.println("Price must be above $0.00");
 //
-//        scanner.close();
+        scanner.close();
 
     }
 
