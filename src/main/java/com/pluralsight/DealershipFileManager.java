@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Scanner;
+
 public class DealershipFileManager {
     private String dealership;
 
@@ -7,8 +9,19 @@ public class DealershipFileManager {
         this.dealership = dealership;
     }
 
-    public String getDealership() {
-        return dealership;
+    private String getDealership() {
+        return this.dealership;
+
+        Scanner scanner = new Scanner(System.in);
+
+        while (int i = 0; i < 0;)
+        System.out.println("Price must be above $0.00");
+
+        Scanner.close();
+
+
+
+
     }
 
     public void setDealership(String dealership) {
