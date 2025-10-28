@@ -7,31 +7,40 @@ public class UserInterface {
     public UserInterface() {
     }
 
-    public void  processGetByPriceRequest() {
+    public String processGetByPriceRequest() {
+        return "";
     }
-    public void processGetByMakeModelRequest() {
+    public String processGetByMakeModelRequest() {
 
+        return "";
     }
-    public void processGetByYearRequest() {
+    public String processGetByYearRequest() {
 
+        return "";
     }
-    public void processGetByColorRequest() {
+    public String processGetByColorRequest() {
 
+        return "";
     }
-    public void processGetMileageRequest() {
+    public String processGetMileageRequest() {
 
+        return "";
     }
-    public void processGetVehicleTypeRequest() {
+    public String processGetVehicleTypeRequest() {
 
+        return "";
     }
-    public void processGetAllVehiclesRequest() {
+    public String processGetAllVehiclesRequest() {
 
+        return "";
     }
-    public void processAddVehiclesRequest() {
+    public String processAddVehiclesRequest() {
 
+        return "";
     }
-    public void processRemoveVehicleRequest() {
+    public String processRemoveVehicleRequest() {
 
+        return "";
     }
 
 }
