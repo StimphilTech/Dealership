@@ -59,10 +59,10 @@ public class UserInterface {
                 case 9:
                     break;
 
-                case 99:
+                case 99: System.out.println("Exit The Application");
                     break;
 
-                default:
+                default:  System.out.println("Please select options 1-99");
                     break;
 
             }
