@@ -12,14 +12,18 @@ public class Program {
 
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-
-
-
-//        while (int i = 0; ) 99
-//        System.out.println("Price must be above $0.00");
+//        Scanner scanner = new Scanner(System.in);
 //
-        scanner.close();
+//
+//
+////        while (int i = 0; ) 99
+////        System.out.println("Price must be above $0.00");
+////
+//        scanner.close();
+
+        //start the application
+        UserInterface UI = new UserInterface();
+        UI.Display();
 
     }
 

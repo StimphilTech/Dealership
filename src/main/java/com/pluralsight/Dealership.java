@@ -10,6 +10,10 @@ public class Dealership {
     private String phone;
     private ArrayList<Vehicle> inventory;
 
+    public Dealership(){
+        this.inventory = new ArrayList<>();
+    }
+
     public Dealership(String name, String address, String phone) {
         this.name = name;
         this.address = address;
@@ -67,17 +71,20 @@ public class Dealership {
     }
 
     public List<Vehicle> getAllVehicles() {
-        return null;//temp
+        return inventory;//temp
     }
 
-    public void addVehicle(ArrayList<Vehicle> inventory) {
+    public void addVehicle(Vehicle vehicle) {
         // code to add vehicle to list
+        inventory.add(vehicle);
     }
 
     public void removeVehicle(ArrayList<Vehicle> inventory) {
         // code to remove vehicle from list
     }
 
-
-
+    @Override
+    public String toString() {
+        return this.name + " " + this.address + " " + this.phone;
+    }
 }
