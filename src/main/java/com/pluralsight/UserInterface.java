@@ -30,33 +30,33 @@ public class UserInterface {
 
             int input = scanner.nextInt();
             switch(input) {
-                case 1:
+                case 1: processGetByPriceRequest();
                     //do the logic to find the car within a range
                     // write the logic in a separate method
 
                     break;
 
-                case 2:
+                case 2: processGetByMakeModelRequest();
                     break;
 
-                case 3:
+                case 3: processGetByYearRequest();
                     break;
-                case 4:
+                case 4: processGetByColorRequest();
                     break;
 
-                case 5:
+                case 5: processGetMileageRequest();
                     break;
-                case 6:
+                case 6: processGetVehicleTypeRequest();
                     break;
 
                 case 7:
                     //list all vehicles
                     processGetAllVehiclesRequest();
                     break;
-                case 8:
+                case 8: processAddVehiclesRequest();
                     break;
 
-                case 9:
+                case 9: processRemoveVehicleRequest();
                     break;
 
                 case 99: System.out.println("Exit The Application");
@@ -72,21 +72,30 @@ public class UserInterface {
         scanner.close();
     }
 
-    private String processGetByPriceRequest() {
+    private void processGetByPriceRequest() {
+
+        double price = 0;
+
+        for(Vehicle car: dealership.getVehiclesByPrice()) {
+            if(car.getPrice()== price){
+                System.out.println(car);
+            }
+
+        }
 
 
-        return "";
+
     }
-    public String processGetByMakeModelRequest() {
+    public void processGetByMakeModelRequest() {
 
-        return "";
+
     }
     public void processGetByYearRequest() {
 
         System.out.println("What year are you interested in seeing?");
         //Scanner to capture that value
-        //the scanner is going to give you a sring
-        //but the vehicle year in in int
+        //the scanner is going to give you a string
+        //but the vehicle year in  int
         //Hint Integer.parse(String)
 
         int year = 0; //this will be = to the integer version of whatever year the user passes in
@@ -100,17 +109,17 @@ public class UserInterface {
 
 
     }
-    public String processGetByColorRequest() {
+    public void processGetByColorRequest() {
 
-        return "";
+
     }
-    public String processGetMileageRequest() {
+    public void processGetMileageRequest() {
 
-        return "";
+
     }
-    public String processGetVehicleTypeRequest() {
+    public void processGetVehicleTypeRequest() {
 
-        return "";
+
     }
     public void processGetAllVehiclesRequest() {
 
@@ -125,13 +134,12 @@ public class UserInterface {
         }
 
     }
-    public String processAddVehiclesRequest() {
+    public void processAddVehiclesRequest() {
 
-        return "";
+
     }
-    public String processRemoveVehicleRequest() {
+    public void processRemoveVehicleRequest() {
 
-        return "";
     }
 
 }
