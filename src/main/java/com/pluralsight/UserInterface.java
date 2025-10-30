@@ -29,8 +29,10 @@ public class UserInterface {
             System.out.println("99)Quit");
 
             int input = scanner.nextInt();
+           // int description = 0;
+
             switch(input) {
-                case 1: processGetByPriceRequest();
+                case 1: processGetByPriceRequest(scanner);
                     //do the logic to find the car within a range
                     // write the logic in a separate method
 
@@ -72,15 +74,29 @@ public class UserInterface {
         scanner.close();
     }
 
-    private void processGetByPriceRequest() {
+    private void processGetByPriceRequest(Scanner scanner) {
+        System.out.println("Enter minimum price");
+        double minPrice= scanner.nextDouble();
+
+        System.out.println("Enter maximum price");
+
+        double maxPrice =scanner.nextDouble();
+
+        System.out.println("\nVehicles between $" + minPrice + " and $" + maxPrice + ":");
 
         double price = 0;
 
+        boolean found = false;
+
         for(Vehicle car: dealership.getVehiclesByPrice()) {
-            if(car.getPrice()== price){
+            if(car.getPrice()>= minPrice && car.getPrice() <= maxPrice){
                 System.out.println(car);
+                found = true;
             }
 
+        }
+        if (!found) {
+            System.out.println("No vehicles found in that price range.");
         }
 
 
