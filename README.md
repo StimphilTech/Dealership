@@ -60,7 +60,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 Outline potential future enhancements or functionalities you might consider adding:
 
 - Additional feature to be developed.
-- Improvement of current functionalities.
+- I would like to make the Menu look more fancy with colors. 
 
 ## Resources
 
