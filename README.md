@@ -78,3 +78,7 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 - Thank you to Raymond, all of my peers for your continuous support and guidance.
 - A special thanks to all colleagues for their dedication and teamwork.
+- An interesting piece of code would be parsing and parting, the way it is written to put into parts was difficult because parsing is an extra step to remember.  :
+-
+- Vehicle vehicle = new Vehicle(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]),parts[2],parts[3],parts[4],parts[5],Integer.parseInt(parts[6]),Double.parseDouble(parts[7]));
+                    dealership.addVehicle(vehicle);
