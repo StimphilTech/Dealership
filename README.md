@@ -25,6 +25,7 @@ created. Down the road, there will be a user option to "switch dealerships"
 ## Setup
 
 Instructions on how to set up and run the project using IntelliJ IDEA.
+Press the play button to run the program. 
 
 ### Prerequisites
 
@@ -43,12 +44,14 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java: Amazon Coretto 17
+
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
+<img width="1464" height="637" alt="image" src="https://github.com/user-attachments/assets/859f1cac-4096-4c2b-97a9-3b37538f2c1d" />
+
+
 
 
 
