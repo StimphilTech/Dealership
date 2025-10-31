@@ -9,12 +9,23 @@ created. Down the road, there will be a user option to "switch dealerships"
 
 ## User Stories
 
+1- As a developer,  I will be able to Find vehicles within a price range
+2-As a developer, users will  Find vehicles by make / model
+3-As a developer, users will be able to find vehicles by year range
+4- As a developer , users will be able to Find vehicles by color
+5 - As a developer, I will code so users can find vehicles by mileage range
+6 - As a developer, I will be make users be able to Find vehicles by type (car, truck, SUV, van)
+7 -As a developer I will make a scanner so users can  List ALL vehicles
+8 - As a developer I will make an add function so that users can Add a vehicle
+9 - As a developer I will code so users can have option Remove a vehicle
+99 - As a developer when user a exiting the application I will create an function called Quit. 
 
 
 
 ## Setup
 
 Instructions on how to set up and run the project using IntelliJ IDEA.
+Press the play button to run the program. 
 
 ### Prerequisites
 
@@ -33,12 +44,14 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java: Amazon Coretto 17
+
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
+<img width="1464" height="637" alt="image" src="https://github.com/user-attachments/assets/859f1cac-4096-4c2b-97a9-3b37538f2c1d" />
+
+
 
 
 
@@ -47,7 +60,7 @@ Include screenshots or GIFs that show your application in action. Use tools like
 Outline potential future enhancements or functionalities you might consider adding:
 
 - Additional feature to be developed.
-- Improvement of current functionalities.
+- I would like to make the Menu look more fancy with colors. 
 
 ## Resources
 
@@ -65,3 +78,7 @@ List resources such as tutorials, articles, or documentation that helped you dur
 
 - Thank you to Raymond, all of my peers for your continuous support and guidance.
 - A special thanks to all colleagues for their dedication and teamwork.
+- An interesting piece of code would be parsing and parting, the way it is written to put into parts was difficult because parsing is an extra step to remember.  :
+-
+- Vehicle vehicle = new Vehicle(Integer.parseInt(parts[0]),Integer.parseInt(parts[1]),parts[2],parts[3],parts[4],parts[5],Integer.parseInt(parts[6]),Double.parseDouble(parts[7]));
+                    dealership.addVehicle(vehicle);
