@@ -9,6 +9,16 @@ created. Down the road, there will be a user option to "switch dealerships"
 
 ## User Stories
 
+1- As a developer,  I will be able to Find vehicles within a price range
+2-As a developer, users will  Find vehicles by make / model
+3-As a developer, users will be able to find vehicles by year range
+4- As a developer , users will be able to Find vehicles by color
+5 - As a developer, I will code so users can find vehicles by mileage range
+6 - As a developer, I will be make users be able to Find vehicles by type (car, truck, SUV, van)
+7 -As a developer I will make a scanner so users can  List ALL vehicles
+8 - As a developer I will make an add function so that users can Add a vehicle
+9 - As a developer I will code so users can have option Remove a vehicle
+99 - As a developer when user a exiting the application I will create an function called Quit. 
 
 
 
