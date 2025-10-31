@@ -53,7 +53,7 @@ public class DealershipFileManager {
             System.out.println(e.getLocalizedMessage()); //sqick print out in there is an error that is caught
         }
 
-        return null;
+        return this.getDealership();
 
 //         (Scanner scanner = new Scanner(System.in)) {
 //
