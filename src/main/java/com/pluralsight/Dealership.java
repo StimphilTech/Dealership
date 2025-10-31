@@ -46,8 +46,17 @@ public class Dealership {
     }
 
     public List<Vehicle> getVehiclesByPrice() {
+        List<Vehicle> result = new ArrayList<>();
 
-        return null;  //temporary (ask chatgpt what am i getting an error of //Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "com.pluralsight.Dealership.getVehiclesByPrice()" is null
+        for (Vehicle car : inventory) {
+            double minPrice = 0;
+            double maxPrice = 0;
+            if (car.getPrice() >= minPrice && car.getPrice() <= maxPrice) {
+                result.add(car);
+            }
+        } 
+    
+    return result;//temporary (ask chatgpt what am i getting an error of //Exception in thread "main" java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "com.pluralsight.Dealership.getVehiclesByPrice()" is null
 //        at com.pluralsight.UserInterface.processGetByPriceRequest(UserInterface.java:79)
 //        at com.pluralsight.UserInterface.Display(UserInterface.java:33)
 //        at com.pluralsight.Program.main(Program.java:26)
